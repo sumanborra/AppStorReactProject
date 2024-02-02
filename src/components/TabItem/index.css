@@ -1,0 +1,23 @@
+/* Write your CSS here */
+.buttn {
+  background-color: transparent;
+  border-width: 0px;
+  outline: none;
+  cursor: pointer;
+}
+.item-tab {
+  font-family: 'Bree Serif';
+  color: #7b8794;
+  padding-left: 0px;
+  font-weight: 600;
+  font-size: 26px;
+  text-decoration: underline 5px;
+}
+.active-class {
+  color: #2563eb;
+}
+@media (max-width: 767px){
+  .item-tab{
+    font-size: 14px;
+  }
+}

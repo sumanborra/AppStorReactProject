@@ -1,0 +1,83 @@
+/* Write your CSS here */
+.background-container {
+  background-image: linear-gradient(#fff1eb, #ace0f9);
+  min-height: 100vh;
+  padding: 30px;
+  font-family: 'Bree Serif';
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+.heading {
+  font-size: 56px;
+}
+@media (max-width: 767px) {
+  .heading {
+    font-size: 28px;
+  }
+}
+.input-container {
+  background-color: transparent;
+
+  padding: 5px;
+  border: 1px solid #7b8794;
+  width: 320px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+@media (max-width: 767px) {
+  .input-container {
+    width: 150px;
+  }
+}
+.input-element {
+  font-size: 22px;
+  height: 45px;
+  width: 280px;
+  background-color: transparent;
+  border-width: 0px;
+  outline: none;
+}
+@media (max-width: 767px) {
+  .input-element {
+    height: 20px;
+    width: 100px;
+    font-size: 14px;
+  }
+}
+.search-icon {
+  background-color: transparent;
+  border-width: 0px;
+  height: 30px;
+  width: 30px;
+}
+@media (max-width: 767px) {
+  .search-icon {
+    height: 20px;
+    width: 20px;
+  }
+}
+.tab-items-list-container {
+  list-style-type: none;
+  font-family: 'Bree Serif';
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.horizontal-line {
+  border-width: 4px;
+  width: 28%;
+  margin-left: 422px;
+  margin-top: 0px;
+  color: #dfe2e5;
+}
+.list-style-appslist {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
